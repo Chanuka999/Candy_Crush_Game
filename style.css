@@ -1,0 +1,26 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    height: 560px;
+    width: 560px;
+    background-color: rgba(109, 127, 151, 0.9);
+    padding: 5px;
+    color: #85796b;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.grid div{
+    height: 70px;
+    width: 70px;
+}
+
+h3{
+    font-family: "Monserat", sans-serif;
+    text-transform: uppercase;
+    margin-top: -5px;
+}
